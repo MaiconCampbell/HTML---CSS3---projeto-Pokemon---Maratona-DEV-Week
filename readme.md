@@ -10,12 +10,12 @@
   - Colocar em prática o conhecimento HTML, CSS.
 
   ## Tela Login do Insta 768X850
-    ![alt text](<img src="/assets/images/Tela_768X850" alt="Tela de apresentação projeto em escala 768X850"/>)
+    ![alt text](<https://github.com/MaiconCampbell/MapaDevWeek/blob/main/assets/images/Tela_768X850.png"/>)
 
-  ## Tela Login do Insta 768X850
-    ![alt text](<img src="/assets/images/Tela_375X850" alt="Tela de apresentação projeto em escala 375X850"/>)
+  ## Tela Login do Insta 375X850
+    ![alt text](<https://github.com/MaiconCampbell/MapaDevWeek/blob/main/assets/images/Tela_375X850.png"/>)
 
-  ## Tela Login do Insta 768X850
+  ## Tela Login do Insta 320X850
     ![alt text](<img src="/assets/images/Tela_320X850" alt="Tela de apresentação projeto em escala 320X850"/>)
 
 <div>
