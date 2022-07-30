@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon</title>
+
+  <link rel="shortcut icon" href="./assets/images/pokebola.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/response.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <img src="./assets/images/pokebola.png" alt="pokebola - usado para capturar os pokémon">
+      <h1>MapaDev Week</h1>
+    </header>
+
+    <main class="conteudo">
+      <button class="btnSeta btnVoltar">
+        <img src="./assets/images/seta.png" alt="seta para mover para esquerda - voltar">
+      </button>
+
+      <ul class="listaPokemons">
+        <li class=" selecionado card fundo-1">
+          <div class="informacoes">
+            <h2>Pikachu</h2>
+            <span class="vida">HP 300</span>
+          </div>
+
+          <div class="containerImg">
+            <img class="imagemPokemon" src="assets/images/pikachu.png" alt="Pikachu">
+          </div>
+
+          <div class="containerDescricao">
+            <h3>Descrição</h3>
+            <p>
+              Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela
+              primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi
+              Tajiri.
+            </p>
+          </div>
+        </li>
+
+        <li class="card fundo-2">
+          <div class="informacoes">
+            <h2>charizard</h2>
+            <span class="vida">HP 800</span>
+          </div>
+
+          <div class="containerImg">
+            <img class="imagemPokemon" src="assets/images/charizard.png" alt="Charizard">
+          </div>
+
+          <div class="containerDescricao">
+            <h3>Descrição</h3>
+            <p>
+              Charizard, conhecido como Lizardon no Japão, é uma criatura fictícia da franquia Pokémon que pertence a
+              Nintendo e Game Freak. Criado por Ken Sugimori, Charizard apareceu pela primeira vez nos jogos Pokémon Red
+              e Blue e subsequentes sequelas.
+            </p>
+          </div>
+
+        </li>
+
+        <li class="card fundo-3">
+          <div class="informacoes">
+            <h2>mewtwo</h2>
+            <span class="vida">HP 1300</span>
+          </div>
+
+          <div class="containerImg">
+            <img class="imagemPokemon" src="assets/images/mewtwo.png" alt="Mewtwo">
+          </div>
+
+          <div class="containerDescricao">
+            <h3>Descrição</h3>
+            <p>
+              Mewtwo é uma criatura oficial da franquia Pokémon, criada pela Nintendo e pela Game Freak. Criado por Ken Sugimori, apareceu pela primeira vez nos jogos de vídeogame Pokémon Red e Blue e suas seqüencias, e mais tarde apareceu em vários produtos, títulos de spin-off, assim como adaptações de animação da franquia.
+            </p>
+          </div>
+
+
+        </li>
+      </ul>
+
+      <button class="btnSeta">
+        <img src="./assets/images/seta.png" alt="seta para mover para direita - avançar">
+      </button>
+    </main>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

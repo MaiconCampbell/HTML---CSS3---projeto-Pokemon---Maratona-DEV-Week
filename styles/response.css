@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .conteudo {
+    padding: 0 15px;
+    gap: 15px;
+  }
+
+  .btnSeta {
+    display: block
+  }
+}
+
+@media (max-width: 425px) {
+  .conteudo {
+    padding: 0 15px;
+    gap: 10px;
+  }
+
+  .btnSeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+  }
+
+  .listaPokemons {
+    height: 480px;
+    width: 240px;
+  }
+
+  .card .imagemPokemon {
+    max-height: 230px;
+  }
+}
+
+@media (max-width: 360px) {
+  .conteudo {
+    display: flex;
+    width: 95%;
+  }
+
+  .btnSeta {
+    display: none
+  }
+  
+  .listaPokemons {
+    flex: 1;
+  }
+}
